@@ -1,0 +1,33 @@
+{
+    "name": "awkaw/laravel-semantic-admin",
+    "description": "Laravel Admin with Semantic UI",
+    "license" : "BSD-3-Clause",
+    "keywords": ["admin", "laravel", "semantic"],
+    "authors" : [
+        {
+            "name": "Alexander Krupnov",
+            "email": "awkaw@yandex.ru",
+            "homepage": "https://github.com/awkaw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelSemanticAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSemanticAdmin\\ServiceProvider"
+            ]
+        }
+    }
+}
